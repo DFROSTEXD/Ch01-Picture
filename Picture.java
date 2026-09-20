@@ -72,7 +72,7 @@ public class Picture
             sun2.changeColor("blue");
             
             guy.makeVisible();
-            guy.changeSize(50, 30);
+            guy.changeSize(110, 30);
             guy.moveHorizontal(-130);
             guy.moveVertical(10);
             guy.changeColor("magenta");
