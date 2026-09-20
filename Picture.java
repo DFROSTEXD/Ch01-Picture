@@ -16,6 +16,9 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle sun2;
+    private Person guy;
+    private Square door;
+    private Square door2;
     private boolean drawn;
 
     /**
@@ -28,6 +31,9 @@ public class Picture
         roof = new Triangle();  
         sun = new Circle();
         sun2 = new Circle();
+        guy = new Person();
+        door = new Square();
+        door2 = new Square();
         drawn = false;
     }
 
@@ -60,9 +66,28 @@ public class Picture
             sun.makeVisible();
             
             sun2.makeVisible();
-            sun2.changeSize(140);
+            sun2.changeSize(80);
             sun2.moveHorizontal(-200);
-            sun2.changeColor("magenta");
+            sun2.moveVertical(-40);
+            sun2.changeColor("blue");
+            
+            guy.makeVisible();
+            guy.changeSize(50, 30);
+            guy.moveHorizontal(-130);
+            guy.moveVertical(10);
+            guy.changeColor("magenta");
+            
+            door.makeVisible();
+            door.changeSize(30);
+            door.moveHorizontal(-60);
+            door.moveVertical(110);
+            door.changeColor("brown");
+            
+            door2.makeVisible();
+            door2.changeSize(30);
+            door2.moveHorizontal(-60);
+            door2.moveVertical(80);
+            door2.changeColor("brown");
             
             drawn = true;
         }
@@ -77,6 +102,10 @@ public class Picture
         window.changeColor("white");
         roof.changeColor("black");
         sun.changeColor("black");
+        sun2.changeColor("black");
+        guy.changeColor("black");
+        door.changeColor("white");
+        door2.changeColor("white");
     }
 
     /**
@@ -88,5 +117,9 @@ public class Picture
         window.changeColor("black");
         roof.changeColor("green");
         sun.changeColor("yellow");
+        sun2.changeColor("blue");
+        guy.changeColor("black");
+        door.changeColor("black");
+        door2.changeColor("black");
     }
 }
