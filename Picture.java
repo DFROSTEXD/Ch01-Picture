@@ -1,13 +1,13 @@
 /**
- * This class represents a simple picture. You can draw the picture using
- * the draw method. But wait, there's more: being an electronic picture, it
- * can be changed. You can set it to black-and-white display and back to
- * colors (only after it's been drawn, of course).
+ * This class represents a picture of the planet Lubrae from the game Destiny 2.
+ * It shows a elongated figure my a house with two suns in the background
+ * One a bright yellow and the other a magnificient blue.
+ * This can be switched from colored to black and white
  *
  * This class was written as an early example for teaching Java with BlueJ.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * @author  William Harvey
+ * @version 2026.00.22
  */
 public class Picture
 {
